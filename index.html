@@ -1,29 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HaraldHenrikssonCV</title>
-    <link rel="stylesheet" href="style.css">
+    <title>HaraldPortfolj</title>
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="profil">
-            <div class="profil_container">
-                <div class="profil_bild">
-                    <img src="" alt="harald henriksson">
+
+    <header id="home">
+
+        <nav id="nav-wrap">
+
+            <ul id="nav" class="nav">
+                <li class="about"><a class="about" href="">Start</a></li>
+                <li><a class="omMig" href="">Om Mig</a></li>
+                <li><a class="minaErfarenheter" href="">Mina Erfarenheter</a></li>
+                <li><a class="referenser" href="">Referenser</a></li>
+                <li><a class="kontaktaMig" href="">Kontakta Mig</a></li>
+            </ul>
+
+        </nav> <!-- end #nav-wrap -->
+
+        <div class="row-banner">
+            
+            <div class="banner-text">
+                <div class="profil_container">
+                    <div>
+                        <h1 class="responsive-headline">Välkommen till min sida</h1>
+                        <h3 class="profil_titel">Mitt namn är Harald och jag studerar till <span>Front End Utvecklare</span> på
+                            Medieinstitutet i Malmö.</h3>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                    </div>
+
                 </div>
-                <div>
-                    <h1 class="profil_namn">Harald Henriksson</h1>
-                    <p class="profil_titel">Studerande</p>
-                    <p class="info">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quibusdam consequuntur distinctio error nesciunt, alias at fugiat qui consectetur laudantium ut, autem cumque explicabo libero voluptates maiores laboriosam excepturi a.
+            </div>
+        </div>
+
+    </header> <!-- Header End -->
+
+    <!-- About Section
+   ================================================== -->
+    <section id="about">
+
+        <div class="row">
+
+            <div class="three columns">
+
+                <img class="profile-pic" src="profilbild.jpg" alt="" />
+
+            </div>
+
+            <div class="nine columns main-col">
+
+                <h2>Lite om mig!</h2>
+
+                <p>Jag är 24 år gammal och bor lite utanför Malmö där jag också vuxit upp, Lomma!
+                </p>
+
+                <div class="row">
+
+                    <div class="columns contact-details">
+
+                    </div>
+
+                    <div class="columns download">
+                        <p>
+                            <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                        </p>
+                    </div>
+
+                    <div class="contact-details">
+
+                        <h2>Kontakta mig</h2>
+                        <p class="address">
+                            <span>Harald Henriksson</span><br>
+                            <span>Kajgatan 6c, Lomma
+                            </span>
+                            <span>070 259 01 41</span><br>
+                            <span>Harald(at)espinagar.se</span>
+                        </p>
+
+                    </div>
+
+                </div> <!-- end row -->
+
+            </div> <!-- end .main-col -->
+
+        </div>
+
+    </section> <!-- Om mig Slut-->
+
+    <section id="resume">
+
+        <!-- Erfarenheter
+    ----------------------------------------------- -->
+        <div class="row work">
+
+            <div class="three columns header-col">
+                <h1><span>Mina erfarenheter</span></h1>
+            </div>
+            <div class="row item">
+
+                <div class="twelve columns">
+
+                    <h3>YouCruit</h3>
+                    <p class="info">Admin <span>&bull;</span> <em class="date">September 2017 - September 2022</em></p>
+
+                    <p class="">
+                        <ul>
+                            <li><span>Kvalitetskontroll</span></li>
+                            <li><span>Säljsupport</span></li>
+                            <li><span>Databashantering</span></li>
+                        </ul>
                     </p>
+
+                    <div class="columns contact-details">
+
+                    </div>
+
+
                 </div>
 
             </div>
+
         </div>
-    </div>
+
+        </div> <!-- Slut erfarenheter -->
+
+
+        <!-- Skills
+    ----------------------------------------------- -->
+        <div class="row skill">
+
+            <div class="three columns header-col">
+                <h1><span>Skills</span></h1>
+            </div>
+
+            <div class="nine columns main-col">
+
+                <div class="bars">
+
+                    <ul class="skills">
+                        <li><span class="bar-expand photoshop"></span><em>Hubspot</em></li>
+                        <li><span class="bar-expand illustrator"></span><em>HTML5</em></li>
+                        <li><span class="bar-expand wordpress"></span><em>CSS</em></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <!--Lägg till kontakt folrmulär-->
+        
+        </footer>
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
+
 </html>
