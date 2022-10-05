@@ -6,23 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HaraldPortfolj</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- Library for sliding affect -->
 </head>
 
 <body>
+<main>
+      <header>
 
-    <header id="home">
-
-        <nav id="nav-wrap">
-
-            <ul id="nav" class="nav">
-                <li class="about"><a class="about" href="">Start</a></li>
-                <li><a class="omMig" href="">Om Mig</a></li>
-                <li><a class="minaErfarenheter" href="">Mina Erfarenheter</a></li>
-                <li><a class="referenser" href="">Referenser</a></li>
-                <li><a class="kontaktaMig" href="">Kontakta Mig</a></li>
+        <nav class="nav-wrap">
+            <ul class="menu">
+                <li><a href="#link">Start</a></li>
+                <li><a href="#link">Om Mig</a></li>
+                <li><a href="#link">Mina Erfarenheter</a></li>
+                <li><a href="#link">Referenser</a></li>
+                <li><a href="#link">Kontakta Mig</a></li>
             </ul>
-
         </nav> <!-- end #nav-wrap -->
 
         <div class="row-banner">
@@ -31,8 +30,8 @@
                 <div class="profil_container">
                     <div>
                         <h1 class="responsive-headline">Välkommen till min sida</h1>
-                        <h3 class="profil_titel">Mitt namn är Harald och jag studerar till <span>Front End Utvecklare</span> på
-                            Medieinstitutet i Malmö.</h3>
+                        <h2 class="profil_titel">Mitt namn är Harald och jag studerar till <span>Front End Utvecklare</span> på
+                            Medieinstitutet i Malmö.</h2>
                         <ul class="social">
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
@@ -44,37 +43,28 @@
         </div>
 
     </header> <!-- Header End -->
+</main>
 
     <!-- About Section
    ================================================== -->
-    <section id="about">
+    <section>
 
-        <div class="row">
+        <div class="about-wrap">
 
-            <div class="three columns">
+            <div class="pic-wrap" data-aos="fade-up" data-aos-duration="1000">
 
-                <img class="profile-pic" src="profilbild.jpg" alt="" />
+                <img class="profile-pic" src="/Pictures/profilbild.jpg" alt="" />
 
             </div>
 
-            <div class="nine columns main-col">
+            <div class="about-contact">
 
-                <h2>Lite om mig!</h2>
+                <h1 data-aos="fade-up" data-aos-duration="1200">Lite om mig!</h1>
 
-                <p>Jag är 24 år gammal och bor lite utanför Malmö där jag också vuxit upp, Lomma!
+                <p data-aos="fade-up" data-aos-duration="1200">Jag är 24 år gammal och studerar till Front End Utvecklare på Medieinstitutet I Malmö.
                 </p>
 
-                <div class="row">
-
-                    <div class="columns contact-details">
-
-                    </div>
-
-                    <div class="columns download">
-                        <p>
-                            <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                        </p>
-                    </div>
+                <div class="row" data-aos="fade-up" data-aos-duration="1200">
 
                     <div class="contact-details">
 
@@ -89,15 +79,19 @@
 
                     </div>
 
-                </div> <!-- end row -->
+                </div> 
 
-            </div> <!-- end .main-col -->
+            </div> 
+            <div class="download-btn" data-aos="fade-up" data-aos-duration="1500">
+                <p>
+                    <a href="#" class="btn"><i class="fa fa-download"></i>Download Resume</a>
+                </p>
+            </div>
+    </div>
 
-        </div>
+    </section> <!-- Om mig End-->
 
-    </section> <!-- Om mig Slut-->
-
-    <section id="resume">
+    <section>
 
         <!-- Erfarenheter
     ----------------------------------------------- -->
@@ -132,7 +126,7 @@
 
         </div>
 
-        </div> <!-- Slut erfarenheter -->
+        </div> <!-- End erfarenheter -->
 
 
         <!-- Skills
@@ -177,6 +171,13 @@
         ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
     </script>
     <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
 </body>
 
 </html>
