@@ -6,44 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HaraldPortfolj</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/CSS-FIles/style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- Library for sliding affect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-<main>
-      <header>
-
-        <nav class="nav-wrap">
-            <ul class="menu">
-                <li><a href="#link">Start</a></li>
-                <li><a href="#link">Om Mig</a></li>
-                <li><a href="#link">Mina Erfarenheter</a></li>
-                <li><a href="#link">Referenser</a></li>
-                <li><a href="#link">Kontakta Mig</a></li>
-            </ul>
-        </nav> <!-- end #nav-wrap -->
-
-        <div class="row-banner">
-            
-            <div class="banner-text">
-                <div class="profil_container">
-                    <div>
-                        <h1 class="responsive-headline">Välkommen till min sida</h1>
-                        <h2 class="profil_titel">Mitt namn är Harald och jag studerar till <span>Front End Utvecklare</span> på
-                            Medieinstitutet i Malmö.</h2>
-                        <ul class="social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-
-                    </div>
-
+    <main>
+        <header>
+            <!-- Nav
+        ================================================== -->
+            <nav class="navbar">
+                <div class="logo">Logo?</div>
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <div class="navbar-links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">Experience</a></li>
+                        <li><a href="#">Skills</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Main content
+   ================================================== -->
+            <div class="main-text">
+                <div>
+                    <h1 class="responsive-headline">Välkommen till min sida</h1>
                 </div>
             </div>
-        </div>
-
-    </header> <!-- Header End -->
-</main>
+        </header>
+    </main>
 
     <!-- About Section
    ================================================== -->
@@ -51,7 +53,7 @@
 
         <div class="about-wrap">
 
-            <div class="pic-wrap" data-aos="fade-up" data-aos-duration="1000">
+            <div data-aos="fade-up" data-aos-duration="1000">
 
                 <img class="profile-pic" src="/Pictures/profilbild.jpg" alt="" />
 
@@ -59,19 +61,20 @@
 
             <div class="about-contact">
 
-                <h1 data-aos="fade-up" data-aos-duration="1200">Lite om mig!</h1>
+                <h1 data-aos="fade-up" data-aos-duration="1200">About Me!</h1>
 
-                <p data-aos="fade-up" data-aos-duration="1200">Jag är 24 år gammal och studerar till Front End Utvecklare på Medieinstitutet I Malmö.
+                <p data-aos="fade-up" data-aos-duration="1200"> 24 years old, Front End
+                    Developer student at Medieinstitutet, Malmö.
                 </p>
 
                 <div class="row" data-aos="fade-up" data-aos-duration="1200">
 
                     <div class="contact-details">
 
-                        <h2>Kontakta mig</h2>
+                        <h2>Contact</h2>
                         <p class="address">
                             <span>Harald Henriksson</span><br>
-                            <span>Kajgatan 6c, Lomma
+                            <span>Lomma, Sweden <br>
                             </span>
                             <span>070 259 01 41</span><br>
                             <span>Harald(at)espinagar.se</span>
@@ -79,72 +82,59 @@
 
                     </div>
 
-                </div> 
+                </div>
 
-            </div> 
-            <div class="download-btn" data-aos="fade-up" data-aos-duration="1500">
-                <p>
-                    <a href="#" class="btn"><i class="fa fa-download"></i>Download Resume</a>
-                </p>
             </div>
-    </div>
+        </div>
 
-    </section> <!-- Om mig End-->
+    </section>
 
     <section>
 
         <!-- Erfarenheter
     ----------------------------------------------- -->
-        <div class="row work">
+        <div class="exp-wrap">
 
-            <div class="three columns header-col">
-                <h1><span>Mina erfarenheter</span></h1>
-            </div>
-            <div class="row item">
+            <div class="my-exp-wrap">
+                <div>
+                    <h1><span>Experience</span></h1>
+                </div>
+                <div>
+                    <div class="twelve columns">
 
-                <div class="twelve columns">
+                        <h3>YouCruit</h3>
+                        <p class="info">Admin <span>&bull;</span> <em class="date">September 2017 - September 2022</em>
+                        </p>
 
-                    <h3>YouCruit</h3>
-                    <p class="info">Admin <span>&bull;</span> <em class="date">September 2017 - September 2022</em></p>
-
-                    <p class="">
+                        <p class="">
                         <ul>
-                            <li><span>Kvalitetskontroll</span></li>
-                            <li><span>Säljsupport</span></li>
-                            <li><span>Databashantering</span></li>
+                            <li><span>Customer Quality Assurance</span></li>
+                            <li><span>Sales Support</span></li>
+                            <li><span>Super Admin</span></li>
                         </ul>
-                    </p>
-
-                    <div class="columns contact-details">
-
+                        </p>
                     </div>
-
-
                 </div>
 
             </div>
 
         </div>
-
-        </div> <!-- End erfarenheter -->
-
-
         <!-- Skills
     ----------------------------------------------- -->
-        <div class="row skill">
+        <div class="skills-wrap">
 
-            <div class="three columns header-col">
+            <div class="skills">
                 <h1><span>Skills</span></h1>
             </div>
 
-            <div class="nine columns main-col">
+            <div>
 
                 <div class="bars">
 
                     <ul class="skills">
-                        <li><span class="bar-expand photoshop"></span><em>Hubspot</em></li>
-                        <li><span class="bar-expand illustrator"></span><em>HTML5</em></li>
-                        <li><span class="bar-expand wordpress"></span><em>CSS</em></li>
+                        <li><span class="bar-expand hubspot"></span><em>Hubspot</em></li>
+                        <li><span class="bar-expand html5"></span><em>HTML 5</em></li>
+                        <li><span class="bar-expand css"></span><em>CSS</em></li>
                     </ul>
 
                 </div>
@@ -155,11 +145,14 @@
 
     </section>
 
-    <footer>
+    <footer class="footer">
 
-        <!--Lägg till kontakt folrmulär-->
-        
-        </footer>
+        <div class="socials-wrap"><ul>
+            <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul></div>
+
+    </footer>
 
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
@@ -172,11 +165,19 @@
     </script>
     <script src="https://www.google-analytics.com/analytics.js" async></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!--Script for nav bar-->
+    <script>const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })</script>
+    <!--Script for sliding effect-->
     <script>
-      AOS.init({
-        duration: 3000,
-        once: true,
-      });
+        AOS.init({
+            duration: 3000,
+            once: true,
+        }); 
     </script>
 </body>
 

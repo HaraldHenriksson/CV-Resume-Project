@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(17, 20, 31, 0.7),rgba(20, 23, 34, 0.7)), url(/Pictures/startbild.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    padding-top: 15%;
+}
+
+/*About Section 
+----------------------------------------------- */
+
+.about-wrap{
+    background-color: #e5e5e5;
+    background-size: cover;
+    padding-top: 10%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    border-bottom: 1px solid black;
+}
+
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+/*Experience
+----------------------------------------------- */
+
+.exp-wrap{
+    padding-top: 5vh;
+    max-width: 100vh;
+    margin: 0 auto;
+}
+
+.my-exp-wrap{
+    display: flex;
+    gap: 25%;
+    margin-bottom: 5vh;
+    padding-bottom: 5vh;
+    border-bottom: 1px solid #a2a1a1;
+}
+
+/*Skills
+----------------------------------------------- */
+
+.skills-wrap{
+    padding-top: 5vh;
+    max-width: 100vh;
+    margin: 0 auto;
+}
+
+.skills{
+    gap: 25%;
+    margin-bottom: 5vh;
+    padding-bottom: 5vh;
+}
+
+/*Footer
+----------------------------------------------- */
+
+footer{
+    display: flex;
+    border-top: 1px solid black;
+    background-color: #e5e5e5;
+    height: 30vh;
+    width: 100%;
+}
+
+.socials-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 6em;
+    margin-left: 25%;
+}
+
+.socials-wrap ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.socials-wrap ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
