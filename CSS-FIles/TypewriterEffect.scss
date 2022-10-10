@@ -10,6 +10,9 @@
     animation: typist 6s steps(24) infinite, blink step-end 1s infinite;
   }
 
+  /*Keyframes for animation 
+----------------------------------------------- */
+
   @keyframes typist{
     0%{width: 0ch;}
     47%{width: 22ch;}
@@ -23,3 +26,65 @@
     50%{border-color: #e5e5e5;}
   }
   
+    /*Mediaqueries for typewriter effect and main-text class 
+----------------------------------------------- */
+  
+  @media (max-width: 1091px){
+    .main-text{
+      margin-left: 10%;
+      padding-top: 30%;
+    }
+  }
+  
+  @media (max-width: 950px){
+    .main-text{
+      margin-left: 5%;
+      padding-top: 40%;
+    }
+  }
+
+@media (max-width: 800px){
+    .main-text{
+        margin-left: 5%;
+        padding-top: 40%;
+    }
+}
+
+@media (max-width: 717px){
+    .responsive-headline{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 641px){
+  .responsive-headline{
+      font-size: 30px;
+  }
+}
+
+@media (max-width: 555px){
+  .responsive-headline{
+      font-size: 25px;
+  }
+  .main-text{
+    padding-top: 50%;
+  }
+}
+
+@media (max-width: 469px){
+  .responsive-headline{
+      font-size: 20px;
+  }
+  .main-text{
+    padding-top: 60%;
+  }
+}
+
+@media (max-width: 370px){
+  .responsive-headline{
+      font-size: 17px;
+  }
+  .main-text{
+    padding-top: 100%;
+  }
+}
