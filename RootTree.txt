@@ -1,0 +1,16 @@
+CV-Resume-Project/
+├─ index.html
+├─ style.css
+├─ CSS-SCSS/
+│  ├─ TypewriterEffect.scss
+│  ├─ TypewriterEffect.css.map
+│  ├─ TypewriterEffect.css
+│  ├─ Nav-Bar.scss
+│  ├─ Nav-Bar.css.map
+│  ├─ Nav-Bar.css
+│  ├─ Main.scss
+│  ├─ Main.css.map
+│  ├─ Main.css
+├─ Pictures/
+│  ├─ profilbild.jpg
+│  ├─ startbild.jpg
