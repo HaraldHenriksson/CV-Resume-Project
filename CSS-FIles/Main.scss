@@ -18,8 +18,6 @@ main{
     position: relative;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    width: auto;
     margin-left: 25%;
     padding-top: 20%;
 }
@@ -35,14 +33,14 @@ main{
     justify-content: center;
     align-items: center;
     gap: 5%;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 .profile-pic{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .address a{
@@ -89,7 +87,7 @@ section{
 ----------------------------------------------- */
 
 footer{
-    border-top: 1px solid black;
+    border-top: 2px solid black;
     background-color: #6d6d6d;
     height: 20vh;
     width: 100%;
@@ -137,4 +135,4 @@ footer{
         padding-right: 10%;
     }
 }
-
+    
