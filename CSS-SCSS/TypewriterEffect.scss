@@ -27,55 +27,45 @@
   
     /*Mediaqueries for typewriter effect and main-text class 
 ----------------------------------------------- */
-  
-  @media (max-width: 1091px){
-    .main-text{
-      margin-left: 10%;
-      padding-top: 30%;
-    }
-  }
-  
-  @media (max-width: 950px){
-    .main-text{
-      margin-left: 5%;
-      padding-top: 40%;
-    }
-  }
 
 @media (max-width: 800px){
-    .main-text{
-        margin-left: 5%;
-        padding-top: 40%;
-    }
+  .responsive-headline{
+      font-size: 35px;
+  }
+  .main-text{
+    padding-top: 20%;
 }
-
-@media (max-width: 717px){
-    .responsive-headline{
-        font-size: 35px;
-    }
 }
 
 @media (max-width: 641px){
   .responsive-headline{
       font-size: 35px;
   }
-}
-
-@media (max-width: 555px){
-  .responsive-headline{
-      font-size: 35px;
-  }
   .main-text{
-    padding-top: 50%;
+    padding-top: 40%;
+}
+}
+
+@media (max-width: 506px){
+  .responsive-headline{
+      font-size: 30px;
   }
 }
 
-@media (max-width: 469px){
+@media (max-width: 424px){
   .responsive-headline{
       font-size: 25px;
   }
   .main-text{
     padding-top: 60%;
-  }
+}
 }
 
+@media (max-width: 358px){
+  .responsive-headline{
+      font-size: 20px;
+  }
+  .main-text{
+    padding-top: 80%;
+}
+}
