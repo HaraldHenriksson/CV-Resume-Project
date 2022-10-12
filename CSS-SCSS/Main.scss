@@ -96,7 +96,6 @@ section{
 }
 
 .skills{
-    gap: 25%;
     padding-bottom: 5vh;
 }
 
@@ -110,9 +109,10 @@ section{
 }
 
 .projects{
-    gap: 25%;
     padding-bottom: 5vh;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 .projects a{
@@ -180,4 +180,13 @@ footer{
         padding-right: 10%;
     }
 }
+
+@media (max-width: 603px) {
+    .projects{
+        display: block;
+    }
+    .projects li{
+        margin: 5%;
+    }
     
+}
