@@ -92,12 +92,38 @@ section{
     padding-top: 5vh;
     max-width: 100vh;
     margin: 0 auto;
+    border-bottom: 1px solid #a2a1a1;
 }
 
 .skills{
     gap: 25%;
     padding-bottom: 5vh;
 }
+
+/*Projects
+----------------------------------------------- */
+
+.projects-wrap{
+    padding-top: 5vh;
+    max-width: 100vh;
+    margin: 0 auto;
+}
+
+.projects{
+    gap: 25%;
+    padding-bottom: 5vh;
+    list-style: none;
+}
+
+.projects a{
+    text-decoration: none;
+    color: black;
+}
+
+.projects a:hover{
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 #6d6d6d;
+  }
 
 /*Footer
 ----------------------------------------------- */
@@ -149,6 +175,10 @@ footer{
     .about-wrap{
         padding-left: 5%;
         padding-right: 5%;
+    }
+    .projects-wrap{
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
     
